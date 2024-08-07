@@ -1,0 +1,13 @@
+foi incluido algumas biblioteclas no pom.xml 
+
+motivo dessa inclusão foi o sudo do recurso do Spring Security Bcrypt
+
+ BCryptPasswordEncoder passwordEncoder = new BCryptPasswordEncoder();
+        
+        String senhaCrypt = passwordEncoder.encode(usuario.getSenha());
+        
+ao qual permite pictografar as mensagens, dando assim mais segurança ao codigo
+
+
+
+foi finalizado tambem a parte de altentificação de login 

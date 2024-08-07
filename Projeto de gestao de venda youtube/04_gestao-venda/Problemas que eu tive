@@ -1,0 +1,1 @@
+alguns erros que eu enfrentei foi a questao de o maven não encotrar a classe main pq eu apaguei a classe main ai tive que fazer o maven reconhecer o caminho da classe que eu queria que fossa a classe main

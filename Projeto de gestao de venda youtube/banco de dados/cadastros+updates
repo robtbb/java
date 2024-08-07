@@ -1,0 +1,15 @@
+
+
+// cadastrando uma categoria
+
+select * from categoria; 
+
+insert into categoria(nome) values('Alimentar');
+
+insert into categoria(nome) values('Alimentar01');
+
+select id,nome categoria;
+
+update categoria set nome='Bebida' where id = 3;
+
+// apenas aprenda a fazer um CRUD

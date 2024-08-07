@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Menu?>
+<?import javafx.scene.control.MenuBar?>
+<?import javafx.scene.control.MenuItem?>
+<?import javafx.scene.layout.StackPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.layout.Priority?>
+
+<VBox xmlns="http://javafx.com/javafx/22" xmlns:fx="http://javafx.com/fxml/1" fx:id="mainVBox" prefHeight="400.0" prefWidth="600.0" fx:controller="gui.InteracaoMainViewController">
+  <children>
+	<MenuBar fx:id="mainMenuBar">
+	  <menus>
+		<Menu mnemonicParsing="false" text="MENU">
+		  <items>
+			<MenuItem fx:id="menuItemServico" mnemonicParsing="false" onAction="#onMenuItemServico" text="SERVIÇOS" />
+			<MenuItem fx:id="menuItemProduto" mnemonicParsing="false" onAction="#onMenuItemProduto" text="PRODUTOS" />
+		  </items>
+		</Menu>
+		<Menu mnemonicParsing="false" text="CONTATO">
+		  <items>
+			<MenuItem fx:id="menuItemTerceiro" mnemonicParsing="false" onAction="#onMenuItemTerceiro" text="terceiro" />
+		  </items>
+		</Menu>
+		<Menu mnemonicParsing="false" text="INFORMAÇOES">
+		  <items>
+			<MenuItem fx:id="menuItemInformacoes" mnemonicParsing="false" onAction="#onMenuItemInformacoes" text="informaçoes" />
+		  </items>
+		</Menu>
+		<Menu mnemonicParsing="false" text="LOGIN">
+		  <items>
+			<MenuItem mnemonicParsing="false" text="Action 1" />
+		  </items>
+		</Menu>
+	  </menus>
+	  <opaqueInsets>
+		<Insets />
+	  </opaqueInsets>
+	  <padding>
+		<Insets left="130.0" />
+	  </padding>
+	</MenuBar>
+	<StackPane fx:id="stackPanePgPrincipal" VBox.vgrow="ALWAYS" />
+  </children>
+</VBox>

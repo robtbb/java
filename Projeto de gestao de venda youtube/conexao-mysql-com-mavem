@@ -1,0 +1,33 @@
+
+
+nesse projeto foi feita a conexao como o banco de dados
+
+para fazer essa implementação voce precisa editar o arquivo pom.xml
+que se lcaliza dentro de projec felies
+
+la dentro do arquivo é implementado 
+
+'''''''''''''''''''''''''''''''''''''''''''
+<dependencies>
+        <!-- Outras dependências -->
+
+        <!-- Dependência do MySQL Connector/J -->
+        <dependency>
+            <groupId>mysql</groupId>
+            <artifactId>mysql-connector-java</artifactId>
+            <version>8.0.30</version> <!-- Verifique a versão mais recente disponível -->
+        </dependency>
+
+        <!-- Outras dependências -->
+    </dependencies>
+    
+'''''''''''''''''''''''''''''''''''''''''''''''
+
+
+vale lembrar que esse modelo de conexao é feito quando criamos o arquivo modo 
+JAVA WITH MAVEN java aplication
+
+
+VERIFIQUE TAMBEM SE EM DEPENCIES ESTÃO INCLUIDOS DEPENDENCIAS DO MYSQL CONECTAR (JA DEVE VIR POR PADRÃO MAS É BOM FISCALIZAR
+
+caso o netbeans esteja com frescura alegando que ja existe um certo pacote mas voce não esta enchergando o pacote, finja que vai criar a classe em um pacote, mas quando for realmente criar o pacote, ao invez de criar a classe no pacote atual , em pacotes colocque o pacote que deseja incluir a classe e assim se a classe não estava aparecendo ela vai aparecer
